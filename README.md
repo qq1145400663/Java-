@@ -3,19 +3,19 @@ Java课程作业项目仓库
 
 # 阅读程序
 public static void main(String args[]) {
-	  //����һ��CPU����
+	  //创建一个CPU对象
 		CPU cpu =new CPU();
-	  //��cpu��speed����Ϊ2200
+	  //将cpu的speed设置为2200
 	    cpu.setSpeed(2200);
-	  //cpu�ͺ�  
+	  //cpu型号  
 	    cpu.settype("i7-9750H");
-	  //����һ��HardDisk����
+	  //创建一个HardDisk对象
 	    HardDisk disk=new HardDisk();
-	  //��disk��amount����Ϊ200
+	  //将disk的amount设置为200
 	    disk.setAmount(200);
-	  //Ӳ�̶�д�ٶ�  
+	  //硬盘读写速度 
 	    disk.setspeed2(500);
-	  //����һ��PC����
+	  //创建一个PC对象
 	    PC pc=new PC();
 	    pc.setCPU(cpu);
 	    pc.setHardDisk(disk);
